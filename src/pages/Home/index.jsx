@@ -5,14 +5,17 @@ import Header from '../../Components/Header';
 function Home(){
   return(
       <div className='background_sobre'>
-      <Header/>
+        <Header/>
 
-        <section className='Banner_perfil'>
-          <img src={fotoeu} alt='imagem perfil'/>
-          <h1>Enzo Rocha</h1>
-          <h2>FrontEnd Portfolio</h2>
+        <section className='texto_home'>
+          <h1 className='texto1'>Enzo Rocha</h1>
+          <h2 className='texto2'>FrontEnd Portfolio</h2>
         </section>
-        
+
+        <section>
+          <img src={fotoeu} alt='imagem perfil'/>
+        </section>
+
       </div>
   );
 }

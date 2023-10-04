@@ -4,7 +4,6 @@ header {
 }
 
 #header {
-    background-color: rgba(0, 0, 0, 0.925);
     height: 80px;
     display: flex;
     align-items: center;
@@ -15,7 +14,7 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
-    margin-left: 30em;
+    margin-left: 28em;
 }
 
 li {
@@ -34,7 +33,7 @@ li::after {
     transition: transform 1s;
     transform: scaleX(0);
     transform-origin: center;
-    background-color: rgb(230, 216, 199);
+    background-color: #6110a8;
 }
 
 li:hover::after {
@@ -44,10 +43,10 @@ li:hover::after {
 }
 
 .routes {
-    color: rgb(255, 255, 255);
-    text-shadow: -1.5px 1.5px 1px rgb(116, 116, 116);
+    color: #A842FF;
+    text-shadow: -2px 2px 1px black;
     text-decoration: none;
     padding: 10px;
-    font-size: 23px;
+    font-size: 28px;
     margin: 8px;
 }
