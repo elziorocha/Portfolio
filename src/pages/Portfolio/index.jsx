@@ -5,7 +5,6 @@ function Portfolio(){
   return(
     <div>
         <Header/>
-        
     </div>
   );
 }

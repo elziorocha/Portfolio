@@ -3,16 +3,34 @@
     padding: 0;
 }
 
+.background_sobre {
+    height: 150vh;
+}
+
 .sobre_caixa {
-    position: absolute;
-    top: 20%;
-    left: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.5em;
+    max-width: 600px;
+    text-align: center;
+    box-shadow:  9px 9px 10px #000000,
+    -2px -2px 7px #c2b2b2;
+    border: solid 3px rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
 }
 
 .sobre_caixa h2 {
     text-align: center;
+    padding-bottom: 10px;
+    margin-top: -10px;
 }
 
 .sobre_caixa h3{
     align-items: center;
+}
+
+.sobre_caixa svg {
+    display: inline;
+    color: green;
 }
