@@ -11,21 +11,30 @@ header {
     background-color: #111111d7;
 }
 
-nav ul {
+.routes {
+    color: #A842FF;
+    text-shadow: -3px 3px 1px black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 28px;
+    margin: 8px;
+}
+
+#header nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
     margin-left: 28em;
 }
 
-li {
+#header li {
     position: relative;
     display: block;
     transition: 0.5s;
     margin-bottom: 11px;
 }
 
-li::after {
+#header li::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -39,18 +48,9 @@ li::after {
     box-shadow: -2px 2px 1px black;
 }
 
-li:hover::after {
+#header li:hover::after {
     transform: scaleX(0.7);
     transform-origin: center;
     width: 100%;
     box-shadow: -2px 2px 1px black;
-}
-
-.routes {
-    color: #A842FF;
-    text-shadow: -3px 3px 1px black;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 28px;
-    margin: 8px;
 }

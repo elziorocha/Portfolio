@@ -4,7 +4,7 @@ import Header from '../../Components/Header';
 
 function Home(){
   return(
-      <div className='background_sobre'>
+      <div className='background_home'>
         <Header/>
 
         <section className='texto_home'>

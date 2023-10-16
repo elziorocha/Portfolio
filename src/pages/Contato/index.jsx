@@ -2,26 +2,36 @@ import './Contato.css';
 import { FaGithubSquare, FaLinkedin, FaWhatsappSquare, FaEnvelopeSquare } from 'react-icons/fa';
 import Header from '../../Components/Header';
 
-function Contato(){
-  return(
+function Contato() {
+  return (
     <div className='background_contato'>
-        <Header/>
-        
-          <section className='contatos'>
-            <FaEnvelopeSquare className='email'/>
-            <h3>rochasenzo.04@gmail.com</h3>
+      <Header />
 
-            <FaWhatsappSquare className='zap'/>
-            <h3>(42) 98401-8839</h3>
-          </section>
+      <div className='container_sobre'>
+        <div className='wrapper'>
 
-          <section className='contatos2'>
-            <FaLinkedin className='linkedin'/>
-            <h3><a href="https://www.linkedin.com/in/elziorocha">linkedin.com/in/elziorocha</a></h3>
+          <div className='icon email'>
+            <div className='tooltip'>Email</div>
+            <FaEnvelopeSquare/>
+          </div>
 
-            <FaGithubSquare className='github'/>
-            <h3><a href='https://github.com/elziorocha'>github.com/elziorocha</a></h3>
-          </section>
+          <div className='icon zap'>
+            <div className='tooltip'>Whatsapp</div>
+            <FaWhatsappSquare/>
+          </div>
+
+          <div className='icon linkedin'>
+            <div className='tooltip'>LinkedIn</div>
+            <FaLinkedin/>
+          </div>
+
+          <div className='icon github'>
+            <div className='tooltip'>GitHub</div>
+            <FaGithubSquare/>
+          </div>
+
+        </div>
+      </div>
 
     </div>
   );
