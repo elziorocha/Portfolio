@@ -11,23 +11,23 @@ function Contato() {
         <div className='wrapper'>
 
           <div className='icon email'>
-            <div className='tooltip'>Email</div>
+            <h2 className='texto_icone'>rochasenzo.04@gmail.com</h2>
             <FaEnvelopeSquare/>
           </div>
 
           <div className='icon zap'>
-            <div className='tooltip'>Whatsapp</div>
+            <h2 className='texto_icone'>(42) 98401-8839</h2>
             <FaWhatsappSquare/>
           </div>
 
           <div className='icon linkedin'>
-            <div className='tooltip'>LinkedIn</div>
-            <FaLinkedin/>
+            <h2 className='texto_icone'>LinkedIn</h2>
+            <a className="linkedin_link" href='https://www.linkedin.com/in/elziorocha'><FaLinkedin/></a>
           </div>
 
           <div className='icon github'>
-            <div className='tooltip'>GitHub</div>
-            <FaGithubSquare/>
+            <h2 className='texto_icone'>GitHub</h2>
+            <a className='github_link' href='https://github.com/elziorocha'><FaGithubSquare/></a>
           </div>
 
         </div>
