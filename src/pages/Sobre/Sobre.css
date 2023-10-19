@@ -4,8 +4,7 @@
 }
 
 .background_sobre {
-    height: 150vh;
-    position: relative;
+    height: 135vh;
     background-color: #1f1f1f;
 }
 
@@ -13,26 +12,83 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 3.5em;
-    max-width: 600px;
+    max-width: 50em;
     text-align: center;
-    box-shadow:  9px 9px 10px #000000,
-    -2px -2px 7px #c2b2b2;
-    border: solid 3px rgb(0, 0, 0);
+    box-shadow:  9px 9px 13px #000000,
+    0px 0px 5px #c2b2b2;
+    border: solid 1px rgb(0, 0, 0);
     border-radius: 10px;
     padding: 20px;
+    font-family: monospace;
 }
 
 .sobre_caixa h2 {
-    text-align: center;
+    font-size: 30px;
+    color: #A842FF;
+    -webkit-text-stroke: 1px black;
+    text-shadow: -2px 2px 1px black;
     padding-bottom: 10px;
-    margin-top: -10px;
+    margin-top: -7px;
 }
 
 .sobre_caixa h3{
-    align-items: center;
+    line-height: 1.4em;
+    font-size: 22px;
+    padding-bottom: 7px;
+    color: #c7bcbc;
+    text-shadow: -2px 2px 1px #000000;
 }
 
-.sobre_caixa svg {
+.icons svg{
+    padding-top: 2px;
+    margin: 2px;
+    background-color: rgb(219, 202, 202);
+    border: solid 2px rgb(122, 122, 122);
+    box-shadow: -3px 3px 1px black;
+    border-radius: 10px;
     display: inline;
-    color: green;
+    height: 50px;
+    width: 50px;
+}
+
+.vscode {
+    color: #0078d7;
+}
+
+.html {
+    color: #e34c26;
+}
+
+.css {
+    color: #264de4;
+}
+
+.icons .js {
+    padding: 1px;
+    margin-left: 10px;
+    color: #d4b801;
+}
+
+.icons .react {
+    padding: 1px;
+    padding-left: 2px;
+    color: #1f86a0;
+}
+
+.icons .node {
+    padding: 1px;
+    color: #3c873a;
+}
+
+.firebase {
+    color: #FFA611;
+}
+
+.icons .blender {
+    padding-right: 1px;
+    color: #EA7600;
+}
+
+.sql {
+    color: #00758F;
 }
