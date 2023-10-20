@@ -9,6 +9,19 @@ function Sobre() {
     <div className='background_sobre'>
       <Header />
 
+      <ul class="circles">
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+                          <li></li>
+
       <div className="sobre_caixa">
         <h2>Quem Sou?</h2>
         <h3>Olá! Me chamo Enzo Rocha, sou um estudante cursando o 4º Período de Engenharia de Software,
@@ -31,6 +44,8 @@ function Sobre() {
         <br/> <FaNodeJs className='node'/> <BiLogoFirebase className='firebase'/> <BiLogoBlender className='blender'/> <DiMysql className='sql'/>
         </div>
       </div>
+
+    </ul>
 
     </div>
   );

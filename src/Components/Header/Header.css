@@ -9,6 +9,8 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: #111111d7;
+    position: relative;
+    z-index: 2;
 }
 
 .routes {

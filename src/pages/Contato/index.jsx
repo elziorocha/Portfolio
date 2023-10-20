@@ -7,7 +7,7 @@ function Contato() {
     <div className='background_contato'>
       <Header />
 
-      <div className='container_sobre'>
+      <div className='container_contato'>
         <div className='wrapper'>
 
           <div className='icon email'>
@@ -32,6 +32,13 @@ function Contato() {
 
         </div>
       </div>
+
+      <section className='ondas'>
+        <div className='wave wave1'></div>
+        <div className='wave wave2'></div>
+        <div className='wave wave3'></div>
+        <div className='wave wave4'></div>
+      </section>
 
     </div>
   );
