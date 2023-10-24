@@ -1,0 +1,29 @@
+.background_portfolio {
+    height: 100vh;
+    background-color: #1f1f1f;
+    position: relative;
+}
+
+.container_portfolio {
+    position: absolute;
+    top: 20vh;
+    left: 25vh;
+}
+
+.container_portfolio img {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: 0px 0px 22px black;
+    border: solid 1px black;
+}
+
+.container_portfolio img:hover {
+    transition: 1s;
+    scale: 97%;
+}
+
+.container_portfolio a {
+    text-decoration: none;
+}

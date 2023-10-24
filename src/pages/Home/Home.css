@@ -48,7 +48,7 @@
     -webkit-text-stroke: 1px black;
 }
 
-img {
+.foto_home img {
     position: absolute;
     left: 63%;
     top: 20%;
@@ -60,7 +60,7 @@ img {
     display: block;
 }
 
-img:hover {
+.foto_home :hover {
     transition: 1s;
     transform: translateY(-10px);
     box-shadow: -10px 8px 6px black;

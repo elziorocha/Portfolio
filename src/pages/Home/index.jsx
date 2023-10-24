@@ -12,7 +12,7 @@ function Home(){
           <h2 className='texto2'>FrontEnd Portfolio</h2>
         </section>
 
-        <section>
+        <section className='foto_home'>
           <img src={fotoeu} alt='imagem perfil'/>
         </section>
 
