@@ -8,11 +8,53 @@ function Portfolio(){
         <Header/>
 
         <div className='container_portfolio'>
-          <a href='https://saintjuanchefs.netlify.app/'> <img src={Saint} /></a>
+        
+          <div className="card">
+            <div className="overlay">
+              <h1>Saint Juan Chef's</h1>
+            <a href='https://saintjuanchefs.netlify.app/' className='btn'>Acessar</a>
+            </div>
+          </div>
 
-          <a href='https://saintjuanchefs.netlify.app/'> <img src={Saint} /></a>
-          
-          <a href='https://saintjuanchefs.netlify.app/'> <img src={Saint} /></a>
+          <div className="card">
+            <div className="overlay">
+              <h1>teste</h1>
+            <a href='https://saintjuanchefs.netlify.app/' className='btn'>Acessar</a>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="overlay">
+              <h1>teste</h1>
+            <a href='https://saintjuanchefs.netlify.app/' className='btn'>Acessar</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div className='container_portfolio'>
+        
+          <div className="card">
+            <div className="overlay">
+              <h1>Saint Juan Chef's</h1>
+            <a href='https://saintjuanchefs.netlify.app/' className='btn'>Acessar</a>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="overlay">
+              <h1>teste</h1>
+            <a href='https://saintjuanchefs.netlify.app/' className='btn'>Acessar</a>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="overlay">
+              <h1>teste</h1>
+            <a href='https://saintjuanchefs.netlify.app/' className='btn'>Acessar</a>
+            </div>
+          </div>
+
         </div>
 
     </div>
