@@ -1,58 +1,83 @@
-header {
-    margin: 0;
-    padding: 0;
-}
-
-#header {
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
     height: 80px;
+    width: 100%;
+}
+  
+  .navbar-container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    background-color: #111111d7;
-    position: relative;
-    z-index: 2;
+    align-items: center;
+    padding: 0 20px;
 }
-
-.routes {
-    color: #A842FF;
-    text-shadow: -3px 3px 1px black;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 28px;
-    margin: 8px;
-}
-
-#header nav ul {
-    list-style: none;
+  
+  .navbar-links {
     display: flex;
-    justify-content: flex-end;
-    margin-left: 28em;
-}
-
-#header li {
-    position: relative;
-    display: block;
-    transition: 0.5s;
-    margin-bottom: 11px;
-}
-
-#header li::after {
-    position: absolute;
-    content: "";
-    width: 100%;
+  }
+  
+  .navbar-links .routes {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px 15px;
+    font-size: 23px;
+  }
+  
+  .navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .bar {
+    width: 25px;
     height: 3px;
-    top: 105%;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+  
+  .active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #333;
+    top: 60px;
     left: 0;
-    transition: transform 1s;
-    transform: scaleX(0);
-    transform-origin: center;
-    background-color: #6110a8;
-    box-shadow: -2px 2px 1px black;
-}
-
-#header li:hover::after {
-    transform: scaleX(0.7);
-    transform-origin: center;
-    width: 100%;
-    box-shadow: -2px 2px 1px black;
-}
+    right: 0;
+  }
+  
+  .change:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+  
+  .change:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .change:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  
+  @media (max-width: 500px) {
+    .navbar-links {
+      display: none;
+    }
+  
+    .navbar-toggle {
+      display: flex;
+    }
+  
+    .active {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      background-color: #333;
+      top: 60px;
+      left: 0;
+      right: 0;
+    }
+  }
+  
