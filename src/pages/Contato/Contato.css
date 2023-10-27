@@ -220,18 +220,14 @@
 }
 
 @media (max-width: 1024px) {
-
-    .wrapper {
-        flex-direction: row;
-    }
-
     .container_contato {
-        height: 60%;
+        margin-left: -5 0px;
     }
 
     .wrapper .icon svg{
-        height: 75px;
-        width: 75px;
+        height: 85px;
+        width: 85px;
+        margin: 0 -50px;
     }
 }
 
@@ -316,8 +312,8 @@
         height: 80%;
     }
     .wrapper .icon svg {
-        height: 90px;
-        width: 90px;
+        height: 100px;
+        width: 100px;
     }
     .wrapper .icon .texto_icone {
         font-size: 14px;
@@ -337,7 +333,7 @@
 
 @media (max-width: 375px) {
     .wrapper {
-        margin-top: -60px;
+        margin-top: -85px;
     }
 
     .wrapper .icon svg {

@@ -1,23 +1,25 @@
 .background_portfolio {
-    height: 125vh;
     background-color: #1f1f1f;
-    background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 
 .container_portfolio {
     display: flex;
     justify-content: center;
-    margin: 3em 3em;
+    margin: 3em 3%;
 }
 
 .card {
-    width: 20em;
+    min-width: 20em;
+    max-width: 20em;
+    width: 27%;
     height: 17em;
     position: relative;
-    margin: 0 1em;
+    margin: 0 2%;
     background-image: url('../../Assets/Saint.png');
     background-size: cover;
+    background-position: center;
     border: solid 2px rgb(0, 0, 0);
     border-radius: 18px;
     box-shadow: inset 0 0 0 1000px rgba(255, 123, 0, 0.664),
@@ -25,7 +27,7 @@
 }
 
 .card h1 {
-    font-size: 35px;
+    font-size: 2em;
     color: #fff;
 }
 
@@ -50,7 +52,7 @@
 }
 
 .card .btn {
-    padding: 0.6em 1.3em;
+    padding: 1em 2em;
     text-decoration: none;
     color: #fff;
     border: solid 2px #fff;
@@ -63,7 +65,7 @@
 }
 
 .card .btn:hover {
-    background: rgba(243, 197, 158, 0.651);
+    background: rgb(230, 82, 14);
     color: black;
     border: solid 2px black;
 }
@@ -75,4 +77,56 @@
 .card:hover .btn, .card:hover h1 {
     transition: 0.5s ease;
     transform: translateY(0);
+}
+
+@media (max-width: 1280px) {
+
+    .card {
+        width: 80%;
+        margin: 1em 1.5em;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .card {
+        width: 80%;
+        margin: 1em 0.5em;
+    }
+}
+
+@media (max-width: 912px) {
+    .container_portfolio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin: 1em 0;
+    }
+}
+
+@media (max-width: 820px) {
+    .container_portfolio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin: 1em 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .container_portfolio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 80%;
+        margin: 1em 0;
+    }
 }
