@@ -53,16 +53,3 @@
     height: 380px;
     display: block;
 }
-
-@media (max-width: 768px) {
-    .container_home {
-        flex-direction: column;
-    }
-    .texto_home {
-        top: 20%;
-    }
-
-    .foto_home img {
-        top: 10%;
-    }
-}
