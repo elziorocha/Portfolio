@@ -16,7 +16,7 @@ function Contato() {
           </div>
 
           <div className='icon zap'>
-            <h2 className='texto_icone'>(42) 98401-8839</h2>
+            <h2 className='texto_iconezap'>(42) 98401-8839</h2>
             <FaWhatsappSquare/>
           </div>
 
