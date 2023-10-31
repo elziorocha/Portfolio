@@ -48,12 +48,14 @@
 }
 
 .foto_home img {
-    width: 250px;
-    height: 250px;
-    border-radius: 25%;
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.822);
     border: solid 5px black;
     max-width: 100%;
     height: auto;
+    margin: 0 0 0 2em;
 }
 
 @media screen and (max-width: 1024px) {
