@@ -8,6 +8,9 @@
   position: relative;
   text-align: center;
   border-bottom: solid 4px rgb(0, 0, 0);
+  text-shadow: -4px 4px 1px black;
+  font-family: monospace;
+  font-weight: bold;
 }
 
 .navbar-container {
@@ -21,14 +24,32 @@
   display: flex;
   position: absolute;
   top: 2px;
-  left: 35.5%;
+  left: 30%;
 }
 
 .navbar-links .routes {
+  position: relative;
   color: #A842FF;
   text-decoration: none;
   margin: 20px 15px;
   font-size: 23px;
+  padding: 0 10px;
+}
+
+.navbar-links .routes:after {
+  content: "";
+  position: absolute;
+  background-color: #A842FF;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -5px;
+}
+
+.navbar-links .routes:hover:after {
+  transition: 0.3s ease-out;
+  border-radius: 10px;
+  width: 100%;
 }
 
 .navbar-toggle {
