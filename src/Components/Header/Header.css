@@ -47,7 +47,7 @@
 }
 
 .navbar-links .routes:hover:after {
-  transition: 0.3s ease-out;
+  transition: 0.3s ease-in-out;
   border-radius: 10px;
   width: 100%;
 }

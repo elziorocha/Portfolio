@@ -1,93 +1,87 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './Portfolio.css';
 import Header from '../../Components/Header';
+import Saint from '../../Assets/Saint.png';
 
-function Portfolio() {
-  const [showPopup, setShowPopup] = useState(false);
+const Portfolio = () => {
 
-  const togglePopup = () => {
-    setShowPopup(!showPopup);
-  };
+  const openPopup = (text) => {
+    document.getElementById('popupText').innerText = text;
+    document.getElementById('popup').style.display = 'flex';
+  }
 
-  useEffect(() => {
-    if (showPopup) {
-    }
-  }, [showPopup]);
+  const closePopup = () => {
+    document.getElementById('popup').style.display = 'none';
+  }
 
   return (
     <div className='background_portfolio'>
       <Header />
 
       <div className='container_portfolio'>
-
-      <div className='container_portfolio'>
         <div className="card">
-          <div className="overlay">
-            <h1>Saint Juan Chef's</h1>
-            <button onClick={togglePopup} className='btn'>Acessar</button>
-          </div>
-        </div>
-      </div>
-
-        <div className='container_portfolio'>
-          <div className="card">
-            <div className="overlay">
-              <h1>Saint Juan Chef's</h1>
-              <button onClick={togglePopup} className='btn'>Acessar</button>
-            </div>
+          <img src={Saint} alt="Card 1" />
+          <div className='overlay'>
+            <button onClick={() => openPopup('- Chatroom -\n\nAplicação de chat para usuários, criada com o uso de Node.Js e socket.io')}>Infos</button>
+            <h1>Chatroom</h1>
+            <a href='https://saintjuanchefs.netlify.app' className="card-text">Acessar</a>
           </div>
         </div>
 
-        <div className='container_portfolio'>
         <div className="card">
-          <div className="overlay">
-            <h1>Saint Juan Chef's</h1>
-            <button onClick={togglePopup} className='btn'>Acessar</button>
+          <img src={Saint} alt="Card 2" />
+          <div className='overlay'>
+            <button onClick={() => openPopup('- Wheater App - \n\n')}>Infos</button>
+            <h1>Weather App</h1>
+            <a className="card-text">Acessar</a>
           </div>
         </div>
-      </div>
 
-      </div>
-
-      <div className='container_portfolio'>
-
-      <div className='container_portfolio'>
         <div className="card">
-          <div className="overlay">
-            <h1>Saint Juan Chef's</h1>
-            <button onClick={togglePopup} className='btn'>Acessar</button>
+          <img src={Saint} alt="Card 2" />
+          <div className='overlay'>
+            <button onClick={() => openPopup('- Wheater App - \n\n')}>Infos</button>
+            <h1>Weather App</h1>
+            <a className="card-text">Acessar</a>
           </div>
         </div>
       </div>
 
       <div className='container_portfolio'>
         <div className="card">
-          <div className="overlay">
-            <h1>Saint Juan Chef's</h1>
-            <button onClick={togglePopup} className='btn'>Acessar</button>
+          <img src={Saint} alt="Card 1" />
+          <div className='overlay'>
+            <button onClick={() => openPopup('- Chatroom -\n\nAplicação de chat para usuários, criada com o uso de Node.Js e socket.io')}>Infos</button>
+            <h1>Chatroom</h1>
+            <a href='https://saintjuanchefs.netlify.app' className="card-text">Acessar</a>
           </div>
         </div>
-      </div>
 
-      <div className='container_portfolio'>
         <div className="card">
-          <div className="overlay">
-            <h1>Saint Juan Chef's</h1>
-            <button onClick={togglePopup} className='btn'>Acessar</button>
+          <img src={Saint} alt="Card 2" />
+          <div className='overlay'>
+            <button onClick={() => openPopup('- Wheater App - \n\n')}>Infos</button>
+            <h1>Weather App</h1>
+            <a className="card-text">Acessar</a>
+          </div>
+        </div>
+
+        <div className="card">
+          <img src={Saint} alt="Card 2" />
+          <div className='overlay'>
+            <button onClick={() => openPopup('- Wheater App - \n\n')}>Infos</button>
+            <h1>Weather App</h1>
+            <a className="card-text">Acessar</a>
           </div>
         </div>
       </div>
 
-      </div>
-
-      {showPopup && (
-        <div className="popup">
-          <div className="popup-content">
-            <p>Conteúdo do Pop-up</p>
-            <button onClick={togglePopup}>Fechar Pop-up</button>
-          </div>
+      <div className="popup" id="popup">
+        <div className="popup-content">
+          <p id="popupText"></p><br /><br />
+          <button onClick={closePopup}>Fechar</button>
         </div>
-      )}
+      </div>
     </div>
   );
 }
