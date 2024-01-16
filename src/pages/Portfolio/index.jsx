@@ -72,7 +72,7 @@ const Portfolio = () => {
         <div className="card">
           <img src={Saint} alt="Card 6" />
           <div className='overlay'>
-            <button onClick={() => openPopup('- Wheater App - \n\n')}>Infos</button>
+            <button onClick={() => openPopup('- Saint Juan Chef`s - \n\nAplicação teste de desenvolvimento de CRUD em React com API integrada')}>Infos</button>
             <h1>Saint Juan Chef's</h1>
             <a href='https://saintjuanchefs.netlify.app' className="card-text">Acessar</a>
           </div>
