@@ -5,6 +5,7 @@ import ChatRoom from '../../Assets/chatroom.png';
 import WeatherApp from '../../Assets/weatherapp.png';
 import ArcadiaX from '../../Assets/arcadiax.png';
 import Saint from '../../Assets/Saint.png';
+import GlassCalendar from '../../Assets/glasscalendar.png';
 
 const Portfolio = () => {
 
@@ -61,11 +62,11 @@ const Portfolio = () => {
         </div>
 
         <div className="card">
-          <img src={Saint} alt="Card 5" />
+          <img src={GlassCalendar} alt="Card 5" />
           <div className='overlay'>
-            <button onClick={() => openPopup('- Glass Calendar - \n\n')}>Infos</button>
+            <button onClick={() => openPopup('- Glass Calendar - \n\nDemonstração de técnicas de CSS como glassmorfism e neomorfism, juntamente com conceitos de webdesign.\nCalendário feito com importação de código JavaScript via repositório público')}>Infos</button>
             <h1>Glass Calendar</h1>
-            <a href='https://saintjuanchefs.netlify.app' className="card-text">Acessar</a>
+            <a href='https://glass-calendar.onrender.com' className="card-text">Acessar</a>
           </div>
         </div>
 
