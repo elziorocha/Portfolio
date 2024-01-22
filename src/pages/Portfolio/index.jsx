@@ -25,7 +25,7 @@ const Portfolio = () => {
         <div className="card">
           <img src={ChatRoom} alt="Card 1" />
           <div className='overlay'>
-            <button onClick={() => openPopup('- Chatroom -\n\nAplicação de chat para usuários, criada com o uso de Node.Js e socket.io')}>Infos</button>
+            <button onClick={() => openPopup('- Chatroom -\n\nAplicação de chat único para usuários, criada com o uso de Node.Js e socket.io')}>Infos</button>
             <h1>Chatroom</h1>
             <a href='https://chatroom-3qbp.onrender.com' className="card-text">Acessar</a>
           </div>
@@ -63,8 +63,8 @@ const Portfolio = () => {
         <div className="card">
           <img src={Saint} alt="Card 5" />
           <div className='overlay'>
-            <button onClick={() => openPopup('- Wheater App - \n\n')}>Infos</button>
-            <h1>Weather App</h1>
+            <button onClick={() => openPopup('- Glass Calendar - \n\n')}>Infos</button>
+            <h1>Glass Calendar</h1>
             <a href='https://saintjuanchefs.netlify.app' className="card-text">Acessar</a>
           </div>
         </div>
