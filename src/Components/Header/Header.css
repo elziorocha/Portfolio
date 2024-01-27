@@ -4,11 +4,9 @@
   padding: 10px 0;
   height: 80px;
   width: 100%;
-  z-index: 3;
-  position: relative;
-  text-align: center;
   border-bottom: solid 4px rgb(0, 0, 0);
   text-shadow: -4px 4px 1px black;
+  box-shadow: 0px -5px 10px -8px #A842FF inset;
   font-family: monospace;
   font-weight: bold;
   display: flex;
@@ -35,7 +33,7 @@
 .navbar-links .routes:after {
   content: "";
   position: absolute;
-  background-color: #A842FF;
+  background-color: #8f2fe2;
   height: 3px;
   width: 0;
   left: 0;
@@ -53,6 +51,9 @@
   flex-direction: column;
   cursor: pointer;
   padding: 10px;
+  position: fixed;
+  left: 15px;
+  top: 10px;
 }
 
 .bar {
