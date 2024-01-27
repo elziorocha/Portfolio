@@ -10,7 +10,7 @@ function Home(){
         <div className='container_home'>
           <section className='texto_home'>
             <h1 className='texto1'>Enzo Rocha</h1>
-            <h2 className='texto2'>FrontEnd Portfolio</h2>
+            <h2 className='texto2'>Web Dev Portfolio</h2>
           </section>
 
           <section className='foto_home'>
