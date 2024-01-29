@@ -1,5 +1,5 @@
 import './Home.css';
-import fotoeu from '../../Assets/eu1.jpg';
+import fotoeu from '../../Assets/eu2.png';
 import Header from '../../Components/Header';
 
 function Home(){
