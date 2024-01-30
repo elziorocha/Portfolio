@@ -82,6 +82,10 @@
     width: 60px;
 }
 
+.icons svg:hover {
+    background-color: #492469;
+}
+
 .vscode {
     color: #0078d7;
 }
