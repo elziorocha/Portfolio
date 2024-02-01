@@ -171,6 +171,7 @@
     font-weight: bold;
     font-size: 18px;
     background-color: #8944c9;
+    color: black;
     box-shadow: 0 0 3px 1px black;
     cursor: pointer;
 }
