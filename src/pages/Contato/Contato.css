@@ -1,3 +1,8 @@
+:root {
+    --icon-size: 7.5em;
+    --icon-font-size: 22px;
+}
+
 .background_contato {
     height: 100vh;
     background-size: cover;
@@ -31,8 +36,8 @@
 
 .wrapper .icon svg {
     position: relative;
-    height: 7.5em;
-    width: 7.5em;
+    height: var(--icon-size);
+    width: var(--icon-size);
     display: block;
     border: solid 2px black;
     border-radius: 8px;
@@ -44,13 +49,14 @@
     z-index: 2;
 }
 
-.wrapper .icon .texto_icone {
+.wrapper .icon .texto_icone,
+.wrapper .icon .texto_iconezap {
     position: absolute;
     top: 145px;
     background: #fff;
     font-family: monospace;
     font-weight: bolder;
-    font-size: 22px;
+    font-size: var(--icon-font-size);
     padding: 10px 18px;
     border-radius: 25px;
     border: solid 2px black;
@@ -60,17 +66,6 @@
 
 .wrapper .icon .texto_iconezap {
     width: 225px;
-    position: absolute;
-    top: 145px;
-    background: #fff;
-    font-family: monospace;
-    font-weight: bolder;
-    font-size: 22px;
-    padding: 10px 18px;
-    border-radius: 25px;
-    border: solid 2px black;
-    opacity: 0;
-    pointer-events: none;
 }
 
 .wrapper .icon:hover .texto_icone,
@@ -198,7 +193,7 @@
     }
 }
 
-@media only screen and (max-width: 380px) and (min-width: 260px) {
+@media only screen and (max-width: 389px) and (min-width: 260px) {
     .wrapper {
         margin-left: 20px;
     }
@@ -212,30 +207,24 @@
         height: 4.75em;
     }
 
-    .wrapper .icon .texto_icone {
-        text-align: center;
-        top: 95px;
-        width: auto;
-        font-size: 16px;
-    }
-
-    .wrapper .icon .texto_icone:before {
-        bottom: 32px;
-    }
-
+    .wrapper .icon .texto_icone,
     .wrapper .icon .texto_iconezap {
         text-align: center;
         top: 95px;
-        width: 175px;
         font-size: 16px;
     }
 
+    .wrapper .icon .texto_iconezap {
+        width: 175px;
+    }
+
+    .wrapper .icon .texto_icone:before,
     .wrapper .icon .texto_iconezap:before {
         bottom: 32px;
     }
 }
 
-@media only screen and (max-width: 540px) and (min-width: 381px) {
+@media only screen and (max-width: 540px) and (min-width: 390px) {
     .wrapper {
         margin-left: 10px;
     }
@@ -249,150 +238,31 @@
         height: 6em;
     }
 
-    .wrapper .icon .texto_icone {
-        text-align: center;
-        top: 115px;
-        width: auto;
-        font-size: 16px;
-    }
-
-    .wrapper .icon .texto_icone:before {
-        bottom: 32px;
-    }
-
+    .wrapper .icon .texto_icone,
     .wrapper .icon .texto_iconezap {
         text-align: center;
         top: 115px;
-        width: 190px;
         font-size: 16px;
     }
 
+    .wrapper .icon .texto_iconezap {
+        width: 175px;
+    }
+
+    .wrapper .icon .texto_icone:before,
     .wrapper .icon .texto_iconezap:before {
         bottom: 32px;
     }
 }
 
-@media only screen and (max-width: 1000px) and (min-width: 542px) {
+@media only screen and (max-width: 1024px) and (min-width: 542px) {
     .wrapper {
         padding: 45px;
         margin-left: 15px;
     }
 
     .wrapper .icon {
-        margin: 70px 70px;
+        margin: 50px 60px;
     }
 
-    .wrapper .icon svg {
-        width: 9em;
-        height: 9em;
-    }
-
-    .wrapper .icon .texto_icone {
-        text-align: center;
-        top: 185px;
-        width: auto;
-        font-size: 22px;
-    }
-
-    .wrapper .icon .texto_icone:before {
-        width: 25px;
-        height: 25px;
-        bottom: 32px;
-    }
-
-    .wrapper .icon .texto_iconezap {
-        text-align: center;
-        top: 185px;
-        width: 225px;
-        font-size: 22px;
-    }
-
-    .wrapper .icon .texto_iconezap:before {
-        width: 25px;
-        height: 25px;
-        bottom: 32px;
-    }
-}
-
-@media only screen and (max-width: 1200px) and (min-width: 1023px) {
-    .wrapper {
-        padding: 55px;
-        margin-left: 15px;
-    }
-
-    .wrapper .icon {
-        margin: 70px 70px;
-    }
-
-    .wrapper .icon svg {
-        width: 10em;
-        height: 10em;
-    }
-
-    .wrapper .icon .texto_icone {
-        text-align: center;
-        top: 205px;
-        width: auto;
-        font-size: 28px;
-    }
-
-    .wrapper .icon .texto_icone:before {
-        width: 25px;
-        height: 25px;
-        bottom: 38px;
-    }
-
-    .wrapper .icon .texto_iconezap {
-        text-align: center;
-        top: 205px;
-        width: 280px;
-        font-size: 28px;
-    }
-
-    .wrapper .icon .texto_iconezap:before {
-        width: 25px;
-        height: 25px;
-        bottom: 38px;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .wrapper {
-        margin-left: 15px;
-    }
-
-    .wrapper .icon {
-        margin: 30px 50px;
-    }
-
-    .wrapper .icon svg {
-        width: 6em;
-        height: 6em;
-    }
-
-    .wrapper .icon .texto_icone {
-        text-align: center;
-        top: 125px;
-        width: auto;
-        font-size: 22px;
-    }
-
-    .wrapper .icon .texto_icone:before {
-        width: 25px;
-        height: 25px;
-        bottom: 32px;
-    }
-
-    .wrapper .icon .texto_iconezap {
-        text-align: center;
-        top: 125px;
-        width: 225px;
-        font-size: 22px;
-    }
-
-    .wrapper .icon .texto_iconezap:before {
-        width: 25px;
-        height: 25px;
-        bottom: 32px;
-    }
 }
