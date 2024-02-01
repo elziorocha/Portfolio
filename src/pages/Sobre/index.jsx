@@ -21,8 +21,18 @@ function Sobre() {
 
       <div className="sobre_caixa">
         <h3>Atualmente me designo para vaga de estágio para primeira experiência profissional, procuro buscar
-          conhecimento de diferentes áreas de desenvolvimento de Softwares. <br /><br/>
-          Tenho uma ótima comunicação e desenvolvo rapidamente um bom relacionamento com colegas de grupo!
+          conhecimento de diferentes áreas de desenvolvimento de Softwares.
+        </h3>
+      </div>
+
+      <div className="sobre_caixa">
+        <h3>Competências: <br/><br/>
+        - Projetos pessoais e acadêmicos desenvolvidos utilizando diversos recursos para desenvolver páginas
+        e aplicações dos mais variados tipos.<br/>
+        - Noções intermediárias de SQL Workbench e manuseio de banco de dados.<br/>
+        - Inglês intermediário, boa noção para leitura e escrita.<br/>
+        - Conhecimento em design para páginas web juntamente com noções de IHC. <br/>
+        - Tenho uma ótima comunicação e desenvolvo rapidamente um bom relacionamento com colegas de grupo!
         </h3>
       </div>
 
