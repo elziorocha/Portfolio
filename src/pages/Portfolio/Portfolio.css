@@ -144,7 +144,7 @@
     align-items: center;
     height: 400px;
     width: 500px;
-    background: linear-gradient(150deg, #652d96 10%, #9469b9 99%);
+    background: linear-gradient(150deg, #652d96 10%, #4e2670 99%);
     border: solid 6px black;
     padding: 20px;
     border-radius: 10px;
@@ -158,10 +158,12 @@
     line-height: 1.25;
     -webkit-text-justify: inter-word;
     margin-top: 10px;
-    font-family: monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     font-size: 22px;
     max-width: 350px;
+    color: black;
+    text-shadow: -2px 2px 1px rgba(88, 81, 81, 0.74);
 }
 
 .popup-content button {
@@ -170,7 +172,7 @@
     border-radius: 5px;
     font-weight: bold;
     font-size: 18px;
-    background-color: #8944c9;
+    background-color: #5c0da7;
     color: black;
     box-shadow: 0 0 3px 1px black;
     cursor: pointer;
@@ -230,5 +232,9 @@
     .card {
         width: 80%;
         margin: 1em 0;
+    }
+
+    .popup-content {
+        width: 90%;
     }
 }
