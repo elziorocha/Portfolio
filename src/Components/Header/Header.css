@@ -6,7 +6,6 @@
   width: 100%;
   border-bottom: solid 4px rgb(0, 0, 0);
   text-shadow: -4px 4px 1px black;
-  box-shadow: 0px -5px 10px -8px #A842FF inset;
   font-family: monospace;
   font-weight: bold;
   display: flex;
@@ -71,6 +70,7 @@
   top: 60px;
   left: 0;
   right: 0;
+  z-index: 5;
 }
 
 .change:nth-child(1) {
@@ -122,7 +122,7 @@
     position: absolute;
     background-color: #0c0c0c;
     width: 100%;
-    top: 100px;
+    top: 80px;
     left: 0;
     right: 0;
   }
