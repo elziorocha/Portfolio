@@ -230,7 +230,7 @@
 
 @media only screen and (max-width: 540px) and (min-width: 390px) {
     .background_contato {
-        height: 85vh;
+        height: 100vh;
     }
 
     .wrapper {

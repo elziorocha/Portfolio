@@ -1,7 +1,7 @@
 import './Sobre.css';
 import Header from '../../Components/Header';
 import fotoeu2 from '../../Assets/eu2.png';
-import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact, FaNodeJs, FaBootstrap } from "react-icons/fa";
+import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact, FaAngular, FaNodeJs, FaBootstrap, FaPhp } from "react-icons/fa";
 import { BiLogoFirebase, BiLogoBlender } from "react-icons/bi";
 import { DiMysql, DiVisualstudio } from "react-icons/di";
 
@@ -40,8 +40,9 @@ function Sobre() {
         <h2>Tecnologias utilizadas</h2>
         <div className='icons'>
           <DiVisualstudio className='vscode' /> <FaHtml5 className='html' /> <FaCss3Alt className='css' />
-          <FaBootstrap className='bootstrap'/> <FaJsSquare className='js' /> <FaReact className='react' />
-          <br /> <FaNodeJs className='node' /> <BiLogoFirebase className='firebase' /> <BiLogoBlender className='blender' /> <DiMysql className='sql' />
+          <FaBootstrap className='bootstrap'/> <FaJsSquare className='js' /> <FaReact className='react' /> <FaAngular className='angular'/>
+          <br /> <FaNodeJs className='node' /> <BiLogoFirebase className='firebase' /> <BiLogoBlender className='blender' />
+          <DiMysql className='sql' /> <FaPhp className='php'/>
         </div>
       </div>
 
