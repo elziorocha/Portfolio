@@ -20,14 +20,14 @@
     border-radius: 50%;
     max-width: 100%;
     border: 5px solid black;
-    box-shadow: 0 0 15px -4px #A842FF;
+    box-shadow: 0 0 10px 5px #0f0f0f;
     margin: 1.5em 0 2.5em;
 }
 
 .sobre_caixa h2 {
     font-size: 4.5em;
     color: #A842FF;
-    text-shadow: -2px 2px 0.5px black;
+    text-shadow: -4px 3px 1px black;
     -webkit-text-stroke: 2px black;
 }
 
@@ -38,7 +38,8 @@
     font-size: 2em;
     color: #b4b3b3;
     text-shadow: -3px 3px 1px #000000;
-    box-shadow: inset 0 0 15px -6px #A842FF;
+    box-shadow: inset 0 0 15px -6px #A842FF,
+    0 0 10px black;
     line-height: 1.3em;
     background: linear-gradient(135deg, #131313 40%, #111010 90%);
     border-radius: 15px;
@@ -66,8 +67,9 @@
     padding: 2em;
     line-height: 1.3em;
     background: linear-gradient(135deg, #131313 40%, #111010 90%);
-    border-radius: 15px;
-    box-shadow: inset 0 0 15px -6px #A842FF;
+    border-radius: 15px;    
+    box-shadow: inset 0 0 15px -6px #A842FF,
+    0 0 10px black;
 }
 
 .icons svg{
