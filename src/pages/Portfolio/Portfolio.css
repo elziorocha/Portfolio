@@ -2,6 +2,7 @@
     background-color: #1f1f1f;
     position: relative;
     overflow: hidden;
+    height: 110%;
 }
 
 .container_portfolio {
@@ -43,7 +44,7 @@
 }
 
 .overlay:hover {
-    transition: .6s ease-out;
+    transition: 0.4s ease-out;
     background-color: transparent;
     backdrop-filter: none;
 }

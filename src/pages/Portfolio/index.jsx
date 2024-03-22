@@ -7,6 +7,7 @@ import ArcadiaX from '../../Assets/arcadiax.png';
 import Login1 from '../../Assets/Login1.png';
 import GlassCalendar from '../../Assets/glasscalendar.png';
 import WorldTravel from '../../Assets/WorldTravel.png';
+import PampasGym from '../../Assets/PampasGym.png';
 
 const Portfolio = () => {
   return (
@@ -64,6 +65,17 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+
+      <div className='container_portfolio'>
+        <div className="card">
+          <img src={PampasGym} alt="Card 7" />
+          <div className='overlay'>
+            <h1>Pampa's Gym</h1>
+            <a href='https://pampas-gym.netlify.app' className="card-text">Acessar</a>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }
