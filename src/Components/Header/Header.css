@@ -85,6 +85,20 @@
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  border: solid 3px black;
+  background: linear-gradient(180deg, #741ec0 30%, #3b0d63 99%);
+}
+
 @media only screen and (max-width: 1000px) and (min-width: 720px) {
   .navbar {
     height: 120px;

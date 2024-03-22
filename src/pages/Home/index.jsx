@@ -9,12 +9,12 @@ function Home(){
 
         <div className='container_home'>
           <section className='texto_home'>
-            <h1 className='texto1'>Enzo Rocha</h1>
-            <h2 className='texto2'>Web Dev Portfolio</h2>
+            <h1>Enzo Rocha</h1>
+            <h2>Web Dev Portfolio</h2>
           </section>
 
           <section className='foto_home'>
-            <img src={fotoeu} alt='imagem perfil'/>
+            <img src={fotoeu} alt='imagem de perfil'/>
           </section>
         </div>
         

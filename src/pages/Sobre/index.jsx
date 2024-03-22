@@ -1,9 +1,8 @@
 import './Sobre.css';
 import Header from '../../Components/Header';
 import fotoeu2 from '../../Assets/eu2.png';
-import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact, FaAngular, FaNodeJs, FaBootstrap, FaPhp } from "react-icons/fa";
-import { BiLogoFirebase, BiLogoBlender } from "react-icons/bi";
-import { DiMysql, DiVisualstudio } from "react-icons/di";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaAngular, FaNodeJs, FaDatabase, FaPhp, FaPython  } from "react-icons/fa6";
+import { BiLogoFirebase } from "react-icons/bi";
 
 function Sobre() {
   return (
@@ -39,10 +38,10 @@ function Sobre() {
       <div className="sobre_caixa">
         <h2>Tecnologias utilizadas</h2>
         <div className='icons'>
-          <DiVisualstudio className='vscode' /> <FaHtml5 className='html' /> <FaCss3Alt className='css' />
-          <FaBootstrap className='bootstrap'/> <FaJsSquare className='js' /> <FaReact className='react' /> <FaAngular className='angular'/>
-          <br /> <FaNodeJs className='node' /> <BiLogoFirebase className='firebase' /> <BiLogoBlender className='blender' />
-          <DiMysql className='sql' /> <FaPhp className='php'/>
+          <FaHtml5 className='html' /> <FaCss3Alt className='css' />
+          <FaJs className='js' /> <FaReact className='react' /> <FaAngular className='angular'/>
+          <br /> <FaNodeJs className='node' /> <BiLogoFirebase className='firebase' /> <FaDatabase className='dados' />
+          <FaPhp className='php'/> <FaPython className='python' />
         </div>
       </div>
 

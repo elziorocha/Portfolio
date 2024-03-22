@@ -19,13 +19,13 @@
 .sobre_caixa img {
     border-radius: 50%;
     max-width: 100%;
-    border: 5px solid black;
-    box-shadow: 0 0 10px 5px #0f0f0f;
-    margin: 1.5em 0 2.5em;
+    border: 4px solid black;
+    box-shadow: 0 0 10px 5px #080808;
+    margin: 1.5em 0 4.5em;
 }
 
 .sobre_caixa h2 {
-    font-size: 4.5em;
+    font-size: 4rem;
     color: #A842FF;
     text-shadow: -4px 3px 1px black;
     -webkit-text-stroke: 2px black;
@@ -33,31 +33,17 @@
 
 .sobre_caixa h3 {
     max-width: 80%;
+    padding: 2.5rem;
+    line-height: 1.3em;
+    font-size: 2em;
     border: solid 1px rgb(0, 0, 0);
     text-align: justify;
-    font-size: 2em;
     color: #b4b3b3;
     text-shadow: -3px 3px 1px #000000;
     box-shadow: inset 0 0 15px -6px #A842FF,
     0 0 10px black;
-    line-height: 1.3em;
     background: linear-gradient(135deg, #131313 40%, #111010 90%);
     border-radius: 15px;
-    padding: 1em;
-}
-
-::-webkit-scrollbar {
-    width: 15px;
-}
-
-::-webkit-scrollbar-track {
-    background: #000000;
-}
-
-::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    border: solid 3px black;
-    background: linear-gradient(180deg, #741ec0 30%, #3b0d63 99%);
 }
 
 .icons {
@@ -73,23 +59,19 @@
 }
 
 .icons svg{
-    padding-top: 2px;
-    margin: 2px;
+    margin: 0.2rem;
     background-color: rgb(219, 202, 202);
     border: solid 3px rgb(0, 0, 0);
     box-shadow: -3px 3px 1px black;
     border-radius: 10px;
-    display: inline;
-    height: 60px;
-    width: 60px;
+    height: 65px;
+    width: 65px;    
+    padding: 3px;
 }
 
 .icons svg:hover {
+    transition: 0.2s;
     background-color: #492469;
-}
-
-.vscode {
-    color: #0078d7;
 }
 
 .html {
@@ -100,24 +82,22 @@
     color: #264de4;
 }
 
-.icons .bootstrap {
-    color: #563d7c;
-    margin-left: 11px;
-}
-
 .icons .js {
-    padding: 1px;
+    margin-left: 0.65rem;
     color: #d4b801;
 }
 
 .icons .react {
-    padding: 1px;
-    padding-left: 2px;
+    padding: 5px;
     color: #1f86a0;
 }
 
+.angular {
+    color: rgb(219, 44, 44);
+}
+
 .icons .node {
-    padding: 1px;
+    padding: 5px;
     color: #3c873a;
 }
 
@@ -125,27 +105,31 @@
     color: #FFA611;
 }
 
-.icons .blender {
-    padding-right: 1px;
-    color: #EA7600;
-}
-
 .sql {
     color: #00758F;
 }
 
-.php {
+.icons .dados {
+    padding: 8px;
+    color: rgb(82, 82, 78);
+}
+
+.icons .php {
+    margin-left: 0.65rem;
     color: rgb(119, 123, 179);
 }
 
-.icons .angular {
-    color: rgb(219, 44, 44);
-    margin-right: 1em;
+.python {
+    color: #306998;
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 260px) {
     .sobre_caixa img {
         width: 250px;
+    }
+
+    .sobre_caixa h2 {
+        font-size: 3.25rem;
     }
 
     .sobre_caixa h3 {
