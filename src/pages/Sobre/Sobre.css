@@ -60,7 +60,7 @@
 
 .icons svg{
     margin: 0.2rem;
-    background-color: rgb(219, 202, 202);
+    background-color: rgb(233, 228, 228);
     border: solid 3px rgb(0, 0, 0);
     box-shadow: -3px 3px 1px black;
     border-radius: 10px;
@@ -74,15 +74,18 @@
     background-color: #492469;
 }
 
-.html {
+.icons .html {
+    padding: 5px;
     color: #e34c26;
 }
 
-.css {
+.icons .css {
+    padding: 5px;
     color: #264de4;
 }
 
 .icons .js {
+    padding: 4px;
     margin-left: 0.65rem;
     color: #d4b801;
 }
@@ -92,12 +95,16 @@
     color: #1f86a0;
 }
 
+.redux {
+    color: #764abc;
+}
+
 .angular {
     color: rgb(219, 44, 44);
 }
 
 .icons .node {
-    padding: 5px;
+    padding: 6px;
     color: #3c873a;
 }
 
@@ -114,13 +121,15 @@
     color: rgb(82, 82, 78);
 }
 
-.icons .php {
+.icons .mongo {
     margin-left: 0.65rem;
-    color: rgb(119, 123, 179);
+    color: #32852b;
 }
 
-.python {
-    color: #306998;
+.icons .php {
+    margin-left: 0.65rem;
+    padding: 5px;
+    color: rgb(119, 123, 179);
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 260px) {
